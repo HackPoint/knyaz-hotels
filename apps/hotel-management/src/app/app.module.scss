@@ -2,8 +2,9 @@
   font-family: sans-serif;
   min-width: 300px;
   max-width: 600px;
-  margin: 50px auto;
+  margin: 0px auto;
 }
+
 
 .app :global(.gutter-left) {
   margin-left: 9px;
@@ -14,17 +15,25 @@
 }
 
 .app :global(.flex) {
-  display: flex;
   align-items: center;
+}
+.app :global(#top-header){
+  background-color: #0e7162;
+  color: #fff;
+    font-size: 12px;
+
+}
+.app :global(#et-info){
+  display: flex;
   justify-content: center;
 }
-
 .app :global(header) {
   background-color: #143055;
   color: white;
   padding: 5px;
   border-radius: 3px;
 }
+
 
 .app :global(main) {
   padding: 0 36px;
@@ -125,4 +134,7 @@
   height: 16px;
   width: 16px;
   margin-right: 4px;
+}
+.app :global(.imageText_header){
+  display:flex
 }
