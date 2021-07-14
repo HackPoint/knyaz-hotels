@@ -3,7 +3,7 @@ import styles from '../app.module.scss';
 /* eslint-disable-next-line */
 export interface HeaderProps {}
 
-export function Header(props) {
+export function Header(props?: any) {
   return (
     <div className={styles.app}>
       <div id="top-header">
