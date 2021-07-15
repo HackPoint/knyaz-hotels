@@ -12,9 +12,17 @@
   },
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@nrwl/workspace/tasks-runners/default",
+      "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "YmMwYWQ0ZjMtY2NmNy00YzA4LWFmM2ItMGNjMzFhZDUzYWMzfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
       }
     }
   },
@@ -32,7 +40,9 @@
     },
     "hotel-management-e2e": {
       "tags": [],
-      "implicitDependencies": ["hotel-management"]
+      "implicitDependencies": [
+        "hotel-management"
+      ]
     }
   }
 }
