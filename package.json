@@ -28,11 +28,13 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
     "core-js": "^3.6.5",
     "document-register-element": "1.13.1",
     "nx": "^12.5.8",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-material-ui-carousel": "^2.2.7",
     "regenerator-runtime": "0.13.7",
     "tslib": "^2.0.0"
   },

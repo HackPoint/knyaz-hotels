@@ -18,7 +18,7 @@ const contents = ([
 }
 
 ])
-const listItems = contents.map((content) =>
+const listItems = contents.map(content =>
 <div>
   <h3>{content.h3}</h3>
   <p>{content.p}</p>
@@ -27,7 +27,7 @@ const listItems = contents.map((content) =>
 </div>
 );
 export function MainContainer(props?: any) {
-  console.log({listItems})
+
   return (
     <div className="listItems">
        {listItems}

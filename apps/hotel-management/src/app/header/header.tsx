@@ -36,12 +36,11 @@ export function Header(props?: any) {
       <main>
         <div className = "imageText_header">
           <span className="et_pb_text_header">
-          {/* {props.headingText}
-          {props.regularText} */}
+
           </span>
           <span className="et_pb_image_header ">
             {props.imgWrap}
-            {/* {props.} */}
+            
           </span>
 
         </div>

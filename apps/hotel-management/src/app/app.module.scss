@@ -138,6 +138,12 @@
 .app :global(.imageText_header){
   display:flex
 }
-.app :global(.listItems){
-  display:flex;
+.app :global(.strong){
+  display: flex;
+  justify-content: center;
 }
+h2,.strong{
+  display: flex;
+  justify-content: center;
+}
+
