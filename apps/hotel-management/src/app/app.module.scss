@@ -1,7 +1,8 @@
+@import url("../app/slider/slider.module.scss");
 .app {
   font-family: sans-serif;
   min-width: 300px;
-  max-width: 600px;
+  // max-width: 600px;
   margin: 0px auto;
 }
 
@@ -146,4 +147,5 @@ h2,.strong{
   display: flex;
   justify-content: center;
 }
+
 

@@ -19,7 +19,7 @@ const contents = ([
 
 ])
 const listItems = contents.map(content =>
-<div>
+<div >
   <h3>{content.h3}</h3>
   <p>{content.p}</p>
   <br/>

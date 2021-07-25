@@ -1,3 +1,7 @@
 .imageText_header{
-  display:flex
+  display:flex;
+  flex-grow: initial;
+}
+a{
+  margin-left:10px;
 }

@@ -1,5 +1,6 @@
 import './header.module.scss';
 import styles from '../app.module.scss';
+import Slider  from '../slider/slider';
 /* eslint-disable-next-line */
 export interface HeaderProps {}
 
@@ -40,11 +41,11 @@ export function Header(props?: any) {
           </span>
           <span className="et_pb_image_header ">
             {props.imgWrap}
-            
           </span>
 
         </div>
       </main>
+      <Slider />
       </div>
     </div>
   );
