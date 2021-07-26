@@ -1,4 +1,5 @@
 
+import BottomContainer from './bottom-container/bottom-container';
 import Header from './header/header';
 import MainContainer from './main-container/main-container';
 import star from './star.svg';
@@ -17,7 +18,7 @@ export function App() {
         </Header>
       <MainContainer/>
       <h2 className="strong"><strong> Теперь такое место есть!</strong></h2>
-
+          <BottomContainer />
     </div>
 
   );
